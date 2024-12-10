@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temrature converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center">
+        <h1>Temrature converter</h1>
+        <form id="form-data">
+            <input class="element" type="temp" name="temp" id="temp" placeholder="Enter Temrature">
+            <select class="element" name="entered" id="to">
+                <option value="cal">Celsius (°C)</option>
+                <option value="kel">Kelvin (°K)</option>
+                <option value="feh">Fahrenheit (°F)</option>
+            </select>
+            <button class="submit" type="submit">submit</button>
+        </form>
+        <h1>Answer: </h1>
+        <h2 id="result1"></h2>
+        <h2 id="result2"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
